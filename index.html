@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>!!</title>
+</head>
+<body onload="on_load()">
+    <div class="container">
+        <div class="mx-auto text-center d-flex justify-content-center align-items-center align-self-center">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" placeholder="Search" id="query">
+                <button type="button" class="btn btn-outline-success" id="search">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Links</a>
+          <ul class="list-group list-group-horizontal" id="links">
+            <li class="list-group-item">
+                <a href="https://google.com">Google</a>
+            </li>
+            <li class="list-group-item">
+                <a href="https://pastebin.com">Pastebin</a>
+            </li>
+            <li class="list-group-item">
+                <a href="https://stackoverflow.com">StackOverFlow</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" id="name" type="text" placeholder="Google" required>
+            <input class="form-control me-2" id="link" type="text" placeholder="https://google.com" required>
+            <button class="btn btn-outline-success" type="button" id="add_link">Submit</button>
+          </form>
+        </div>
+      </nav>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
